@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+ header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/projects/netflix//header-image.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    border: none;
+    padding: 20px  0 150px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: none;
+}
+nav img{
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+}
+.menu{
+    margin-right: 200px;
+    font-family: sans-serif;
+
+}
+nav select{
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin-right: 30px;
+    background: none;
+}
+nav select option{
+    color: black;
+}
+nav a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+/*---------------------------------*/
+.introduction{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 150px;
+}
+.introduction h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+.introduction h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.introduction h4{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.introduction input{
+    width: 350px;
+    height: 40px;
+    margin-left: 400px;
+    padding: 7px 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: none;
+    font-weight: 500;
+    border-color: none;
+}
+.introduction a{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 18px 25px;
+}
+/*--------------------------*/
+.middle{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0px;
+    margin-bottom: 30px;
+
+}
+.row h2{
+    font-size: 50px;
+    font-weight: 900; 
+    padding: 0px 50px;  
+}
+.row p{
+    margin-top: -40px;
+    font-size: 30px;
+    padding: 0px 50px;  
+}
+.row img{
+    width: 500px;
+    height: 450px;
+    padding: 0px 50px;  
+}
+/*--------------------------------*/
+.questions{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 80px;    
+}
+.questions h1{
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+ul{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1100px;   
+}
+ul li{
+  list-style: none;
+    width: 100%;
+    padding: 3px;
+}
+#ac li label{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(44, 42, 44);
+    margin-bottom: 3px;
+    cursor: pointer;
+    position: relative;
+    justify-content: space-between;
+}
+#ac label span{
+    font-size: 30px;
+}
+#ac li label:hover{
+    background-color:  rgb(116, 114, 116);
+    transition: 0.5s;
+}
+ #ac label + input[type='radio']{
+    display: none;
+   
+} 
+#ac .info {
+    font-size: 25px;
+    text-align: left;
+    background:  rgb(44, 42, 44);
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+ #ac label + input[type="radio"]:checked + .info{
+    max-height: 300px;
+    padding: 30px 20px;
+}
+.mail input {
+    width: 350px;
+    height: 40px;
+    margin-left: 400px;
+    padding: 7px 15px;
+    margin-top: 30px;
+    border-radius: 5px;   
+    background: none;
+}
+.mail a{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 18px 25px;
+}
+.mail h4{
+   text-align: center;
+   font-size: 20px;
+   margin-top: 50px;
+}
+/*---------------------------------------------*/
+.footer{
+    color:  rgba(255, 255, 255, 0.596);
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif; 
+    margin-top: 50px;
+    margin-left: 120px;  
+}
+.footer a{
+    color: rgba(255, 255, 255, 0.596);
+}
+.footer .col a{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+    margin-bottom: 30px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -300px;
+}
+.c0l1,.col2,.col3,.col4{
+    padding:0px 100px;
+   
+}
+.footer select{
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: none;
+}
+.end p{
+    color:  rgba(255, 255, 255, 0.596);
+    margin-bottom: 80px;
+    font-weight: normal;
+}
+hr{
+    margin-top: -8px;
+    margin-bottom: 80px;
+    background-color:  rgb(64, 59, 59);
+    border: none;
+    height: 8px;
+}
